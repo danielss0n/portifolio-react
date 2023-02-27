@@ -10,6 +10,7 @@ import Header from "./components/layout/Header";
 import Contact from "./components/pages/Contact";
 import Home from "./components/pages/Home";
 import NFTHeader from "./components/layout/NFTHeader";
+import Shopping from "./components/pages/Shopping";
 
 import ImageBoard from "./components/pages/nfts/ImageBoard";
 
@@ -25,6 +26,7 @@ function App() {
                 <Route path="/nfts/*" element={<NFTHeader/>}/>
                 <Route exact path="/nfts/:collectionName" element={<><NFTHeader/><ImageBoard/></>}/>
                 <Route path="/contact" element={<Contact/>}/>
+                <Route path="/shopping" element={<Shopping/>}/>
             </Routes>
         </BrowserRouter>
     </div>
