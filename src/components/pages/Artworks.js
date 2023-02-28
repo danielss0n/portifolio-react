@@ -1,7 +1,7 @@
-function Contact() {
+function Artworks() {
     return (
         <div>In development</div>
     )
 }
 
-export default Contact
+export default Artworks

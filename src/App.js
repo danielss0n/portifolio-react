@@ -27,6 +27,7 @@ function App() {
                 <Route exact path="/nfts/:collectionName" element={<><NFTHeader/><ImageBoard/></>}/>
                 <Route path="/contact" element={<Contact/>}/>
                 <Route path="/shopping" element={<Shopping/>}/>
+                <Route path="/artworks" element={<Shopping/>}/>
             </Routes>
         </BrowserRouter>
     </div>
