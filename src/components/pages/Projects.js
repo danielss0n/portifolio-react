@@ -1,4 +1,4 @@
-function Artworks() {
+function Projects() {
     return (
         <div class="container">
             <p>in development</p>
@@ -6,4 +6,4 @@ function Artworks() {
     )
 }
 
-export default Artworks
+export default Projects

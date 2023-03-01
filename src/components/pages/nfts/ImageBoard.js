@@ -5,9 +5,12 @@ function ImageBoard() {
     const {collectionName} = useParams();
 
     return (
-        <ImageCard collection={collectionName}>
-            {console.log(collectionName)}
-        </ImageCard>
+        <div class="container">
+            <ImageCard collection={collectionName}>
+                {console.log(collectionName)}
+            </ImageCard>
+        </div>
+        
     )
     
 }

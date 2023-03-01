@@ -1,15 +1,14 @@
 import { Link } from 'react-router-dom'
 function Header() {
     return (
-        <div>
-            <nav>
-                <div class="nav-wrapper grey darken-4">
-                <Link to="/" class="brand-logo hide-on-med-and-down">Cassiano Danielsson</Link>
+        <div class="transparent z-depth-1">
+            <nav class="container">
+                <div class="nav-wrapper black z-depth-0">
+                <Link to="/" class="brand-logo hide-on-med-and-down">Danielsson.</Link>
                 <ul id="nav-mobile" class="right">
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/shopping">Shopping</Link></li>
-                    <li><Link to="/nfts/underwater-club">NFTs</Link></li>
-                    <li><Link to="/artworks">Artworks</Link></li>
+                    <li><Link to="/">Homepage</Link></li>
+                    <li><Link to="/projects">Projects</Link></li>
+                    <li><Link to="/nfts">NFTs</Link></li>
                     <li><Link to="/contact">Contact</Link></li>
                 </ul>
                 </div>

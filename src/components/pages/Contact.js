@@ -1,6 +1,8 @@
 function Contact() {
     return (
-        <div>In development</div>
+        <div class="container">
+            <p>in development</p>
+        </div>
     )
 }
 
